@@ -1,5 +1,5 @@
 FROM node:alpine AS development
-  
+
 # Declaring env
 ENV NODE_ENV development
 
@@ -15,3 +15,4 @@ COPY . .
 
 # Starting our application
 CMD npm start
+
